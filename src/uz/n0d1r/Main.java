@@ -1,5 +1,7 @@
 package uz.n0d1r;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -29,8 +31,7 @@ public class Main {
     -1 qiymat qaytarilsin
      */
     private static int binSearch(int[] a, int x) {
-
-        return 0;
+        return Arrays.binarySearch(a,x);
     }
 
     private static void testFunction() {
